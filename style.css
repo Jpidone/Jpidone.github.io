@@ -1,0 +1,185 @@
+/* Barra de navegación  */
+
+.navbar {
+   padding: 1rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos generales  */
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.seccion-oscura{
+    background-color: #212529;
+    color: white;
+}
+
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
+
+
+.seccion-titulo {
+    font-size:  2rem;
+    padding: 15px 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+/* Seccion Hero */
+
+.hero   {
+    background-color: white;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    margin-top: 8rem; 
+    padding: 3rem;
+}
+
+.hero-imagen-desarrolador {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.hero-inferior .contenedor {
+    max-width: 900px;
+}
+
+.hero-inferior-imagen {
+    height: 80px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.hero-inferior {
+    padding: 0px 0px 50px 0px;
+    font-size: 1.4rem;
+}
+
+.sobre-mi {
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+
+/* experiencia timeline */
+
+.experiencia-item {
+    border-color: black;
+    border-right: 5px solid;
+    
+}
+
+.anio-i::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 999px;
+    border: 5px solid black;
+    transform: translateX(5px);
+    
+  }
+
+  .anio-d::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 999px;
+    border: 5px solid black;
+    transform: translateX(-25px);
+   
+  }
+
+  /* formacion */
+  .formacion{
+    padding: 40px 40px 40px 40px;
+}
+
+.formacion .row div {
+    height: 300px;
+    padding-top: 50px;
+}
+
+.formacion i {
+   font-size: 2rem;
+   color: white;
+   background-color: black  ;
+   padding: 8px 19px;
+   border-radius: 50%;
+}
+
+.formacion .columna {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    transition: all 0.2s ease-in;
+}
+
+
+
+.formacion .columna:hover {
+    
+    color: white;
+    background-color: #212529;
+    
+}
+
+/* Adaptaciones responsivas   */
+
+@media screen and (max-width: 767px){
+    .navbar-brand {
+        display: none;
+    }
+ 
+    
+}
+
+@media screen and (min-width: 700px) {
+    .hero-principal-imagen {
+        max-width: 600px;
+    }
+  
+    
+    
+}
+

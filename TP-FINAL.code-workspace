@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../DiploWeb/TP-FINAL"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProyectoCV"
+	}
+}
