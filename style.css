@@ -98,33 +98,43 @@ h1 {
 
 /* experiencia timeline */
 
-.experiencia-item {
+.experiencia-derecha {
     border-color: black;
     border-right: 5px solid;
     
 }
 
+.experiencia .borde {
+    border-color: black;
+    border-left: 5px solid;
+}
+
+.experiencia-izquierda {
+    border-color: black;
+    border-left: 5px solid;
+}
+
 .anio-i::after {
     content: "";
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background: white;
     border-radius: 999px;
     border: 5px solid black;
-    transform: translateX(5px);
+    transform: translateX(3px);
     
   }
 
   .anio-d::before {
     content: "";
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background: white;
     border-radius: 999px;
     border: 5px solid black;
-    transform: translateX(-25px);
+    transform: translateX(-28px);
    
   }
 
@@ -158,10 +168,8 @@ h1 {
 
 
 .formacion .columna:hover {
-    
-    color: white;
-    background-color: #212529;
-    
+   color: white;
+   background-color: #212529;
 }
 
 /* Adaptaciones responsivas   */
@@ -170,9 +178,34 @@ h1 {
     .navbar-brand {
         display: none;
     }
- 
     
+    .expereincia .vacia {
+        display: none;
+    }
+    
+    .experiencia-derecha{
+        padding-top: 20px;
+    }
+
+    .experiencia-izquierda {
+        border-color: black;
+        border-left: 5px solid;
+        border-top: 5px solid;
+        padding-top: 20px;
+       
+    }
+
+    .experiencia .borde {
+        border-color: black;
+        border-left: 5px solid;
+        border-top: 5px solid;
+        border-bottom: 5px solid;
+        padding-top: 20px;
+        
+    }
 }
+
+
 
 @media screen and (min-width: 700px) {
     .hero-principal-imagen {
