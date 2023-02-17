@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
 /* Barra de navegación  */
 
 .navbar {
@@ -96,6 +103,10 @@ h1 {
 
 /* experiencia timeline */
 
+.experiencia{
+    padding: 100px 10px 10px 10px;
+}
+
 .experiencia-derecha {
     border-color: black;
     border-right: 5px solid;
@@ -136,9 +147,9 @@ h1 {
    
   }
 
-  /* formacion */
+/* formacion */
   .formacion{
-    padding: 40px 40px 40px 40px;
+    padding: 100px 40px 40px 40px;
 }
 
 .formacion .row div {
@@ -171,7 +182,7 @@ h1 {
 /* referencias  */
 
 .referencias   {
-    padding: 40px 40px 80px 40px;
+    padding: 100px 40px 80px 40px;
 }
 
 .carousel {
@@ -225,6 +236,12 @@ h1 {
     padding-bottom: 50px;
 }
 
+.formulario {
+    max-width: 400px;
+    padding: 5px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 10px;
+}
 /* Adaptaciones responsivas   */
 
 @media screen and (max-width: 767px){
