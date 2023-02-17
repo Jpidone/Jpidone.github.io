@@ -79,6 +79,7 @@ h1 {
 
 .hero-inferior .contenedor {
     max-width: 900px;
+    margin-bottom: 100px;
 }
 
 .hero-inferior-imagen {
@@ -92,7 +93,7 @@ h1 {
 }
 
 .sobre-mi {
-    height: 500px;
+    height: 900px;
     padding: 10px;
 }
 
@@ -237,14 +238,15 @@ h1 {
 }
 
 .formulario {
-    max-width: 460px;
+    max-width: 400px;
     padding: 5px;
     border: solid 2px white;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .mapa {
-    max-width: 460px;
+    max-width: 400px;
     padding: 2px;
     border: solid 2px white;
     border-radius: 10px;
@@ -252,6 +254,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 10px;
+    
 }
 
 
