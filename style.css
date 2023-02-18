@@ -92,6 +92,8 @@ h1 {
     font-size: 1.4rem;
 }
 
+/* sobre mi  */
+
 .sobre-mi {
     height: 900px;
     padding: 10px;
@@ -187,11 +189,11 @@ h1 {
 }
 
 .carousel {
-    max-width: 300px;
+    max-width: 400px;
 }
 
 .carousel-item {
-    height: 350px;
+    height: 400px;
     
 }
 
