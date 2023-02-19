@@ -372,6 +372,9 @@
     <h5 class="mx-auto">Desarrollado por Javier Luis Pidone como trabajo práctico curso Argentina Programa</h5>
   </div>
 </footer>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
   <!-- bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
@@ -379,6 +382,11 @@
   <!-- libreria typed.js efecto escritura -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="main.js"></script>
+  <script>
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+</script>
 </body>
 
 </html>

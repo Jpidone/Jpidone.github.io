@@ -14,3 +14,5 @@ loopCount: false,
 showCursor: true,
 coursoChar: "/",
 });
+
+
